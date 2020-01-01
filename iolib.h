@@ -55,6 +55,18 @@ namespace ioGen{
 		bool ioBuffer__iRefreshed;
 		bool ioBuffer__iiRefreshed;
 		
+		//first class functions
+		
+		bool ioGenerate(); //okay
+		
+		bool isIoGeneratable(); //okay
+		
+		
+		//second class functions
+		
+		bool setInitialGenState(std::vector<unsigned int> __tmpGenState);
+		
+		
 	public:
 		ioGenerator(unsigned int __minLen, unsigned int __maxLen, std::string ioCharOptionSet); // the ioCharSet needs to be initialized with data from ioCharOptionSet
 		ioGenerator(unsigned int __minLen, unsigned int __maxLen, std::vector <char> __ioCharSet); 

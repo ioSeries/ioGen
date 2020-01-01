@@ -2,6 +2,7 @@
 
 namespace ioGen{
 	class ioSession{
-		ioSession();
+		public:
+			ioSession();
 	};
 }
